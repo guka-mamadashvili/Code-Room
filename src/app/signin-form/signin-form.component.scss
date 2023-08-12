@@ -1,0 +1,74 @@
+@import '../../styles.scss';
+
+.form {
+  width: 500px;
+  height: 500px;
+  background-color: $primary;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  h1 {
+    color: white;
+    padding-bottom: 10px;
+    font-family: "Bebas Neue", "sans-serif";
+  }
+
+  input {
+    width: 250px;
+    height: 40px;
+    padding-left: 8px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  .pass {
+    color: white;
+     font-family: 'Poppins', sans-serif;
+     margin-left: 5px;
+
+     &:hover {
+       text-decoration: underline;
+       cursor: pointer;
+     }
+  }
+
+   button {
+        border: none;
+        font-size: 16px;
+        color: white;
+        padding: 8px 16px;
+        background-color: $primary;
+        border-radius: 10px;
+        margin: 14px;
+        border: 2px solid white;
+        cursor: pointer;
+        font-weight: bold;
+        transition: all 0.3s ease;
+    
+        &:hover {
+            background-color: white;
+            border: 2px solid $primary;
+            color: $primary;
+        }
+}
+.acc {
+  color: white;
+  font-family: "Poppins", "sans-serif";
+
+  &:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+}
+
+@media only screen and (max-width: 480px) {
+  .form {
+    width: auto;
+    padding: 20px;
+  }
+}

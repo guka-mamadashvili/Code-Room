@@ -1,0 +1,34 @@
+.developers {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+
+@media only screen and (max-width: 480px) {
+    .cards {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .developers {
+        gap: 30px;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .cards {
+        gap: 20px
+    }
+}

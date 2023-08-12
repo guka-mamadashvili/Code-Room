@@ -1,0 +1,19 @@
+<div class="menu-section">
+    <ul class="menu">
+      <a routerLink="/"><li>Home</li></a>
+      <div class="drop-down">
+        <div class="toggler">
+          <li>Menu</li> <img class="arrow-down" (click)="Toggle()" src="./assets/menu-right-fill-svgrepo-com.svg" alt="" *ngIf="!isToggled"> <img class="arrow-up" (click)="Toggle()" src="./assets/menu-right-fill-svgrepo-com.svg" alt="" *ngIf="isToggled">
+        </div> 
+        <div class="dropdown-menu" [@slideDown]="isToggled" *ngIf="isToggled">
+          <div class="menu-item" (mouseenter)="webMouseEnter()" (mouseleave)="webMouseLeave()"> <img [src]="webImageUrl" alt=""> Web Development</div>
+          <div class="menu-item" (mouseenter)="softMouseEnter()" (mouseleave)="softMouseLeave()"> <img [src]="softImageUrl" alt=""> Software Development</div>
+          <div class="menu-item" (mouseenter)="linuxMouseEnter()" (mouseleave)="linuxMouseLeave()"> <img [src]="linuxImageUrl" alt=""> Linux Administration</div>
+          <div class="menu-item" (mouseenter)="mobMouseEnter()" (mouseleave)="mobMouseLeave()"> <img [src]="mobImageUrl" alt=""> Mobile Development</div>
+        </div>
+      </div>
+      <a routerLink="/about"><li>About us</li> </a>
+      <li>Contact</li>
+    </ul>
+  </div>
+  

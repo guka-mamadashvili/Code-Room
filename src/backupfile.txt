@@ -1,0 +1,8 @@
+<app-content></app-content>
+<app-developers>
+    <ng-container>
+        <app-card [name]="giorgi.saxeli" [imgUrl]="giorgi.imgUrl" [description]="giorgi.description"></app-card>
+        <app-card [name]="mariami.saxeli" [imgUrl]="mariami.imgUrl" [description]="mariami.description"></app-card>
+        <app-card [name]="ana.saxeli" [imgUrl]="ana.imgUrl" [description]="ana.description"></app-card>
+    </ng-container>
+</app-developers>

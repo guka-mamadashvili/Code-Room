@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="image-section">
+        <div class="img">
+        <img [src]="imgUrl" alt="">
+        </div>
+    </div>
+    <div class="info-section">
+        <div class="info-wrap">
+            <h3 class="name">{{name}}</h3>
+            <p class="info">{{description}}</p>
+        </div>
+        <ng-content></ng-content>
+    </div>
+</div>
