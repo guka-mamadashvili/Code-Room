@@ -8,9 +8,15 @@
     <div class="skills">
         <h3>Education</h3>
         <h4>University: {{sharedData.university}}</h4>
-        <h4>Education: {{sharedData.education}}</h4>
+        <a href="https://ibsu.edu.ge/ge/"><img [src]="sharedData.univIcon" alt="" class="uniLogo"></a> 
+        <h4>Major: {{sharedData.education}}</h4>
         <h4>Position: {{sharedData.proSphere}}</h4>
         <h4>Skills: {{sharedData.skills}}</h4>
+        <div class="icons">
+          <a href="https://en.wikipedia.org/wiki/C%2B%2B"> <img [src]="sharedData.skill1iconUrl"> </a>
+          <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"> <img [src]="sharedData.skill2iconUrl"> </a>
+          <a href="https://en.wikipedia.org/wiki/Python_(programming_language)"> <img [src]="sharedData.skill3iconUrl"> </a>
+        </div>
     </div>
 </div>
 

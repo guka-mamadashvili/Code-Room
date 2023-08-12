@@ -7,8 +7,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     gap: 50px;
     
         .form {
@@ -93,7 +93,33 @@
             gap: 20px;
             color: white;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            
+            h3 {
+                font-size: 20px;
+            }
+
+            h4 {
+                font-size: 17px;
+            }
+
+            .uniLogo {
+                width: 100px;
+                border-radius: 50%;
+            }
+
+            .icons{
+               display: flex;
+               gap: 20px;
+
+             img { width: 50px;
+              backgorund-color: white;
+              border: 1px solid white;
+              border-radius: 50%;
+            }
+
         }
 
+
+}
 
 }
