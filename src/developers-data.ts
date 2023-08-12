@@ -1,29 +1,41 @@
 export const Developers: any = [
     {
         id: 1,
-        saxeli: "Dachi",
+        fname: "Dachi",
         lname: "Loseurashvili",
         imgUrl: "../../assets/giorgi.svg",
-        description: "Giorgi is Web Developer from Georgia",
+        description: "Dachi is Web Developer from Georgia",
         info: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo beatae dignissimos provident id delectus veritatis cum odio, magni quis quos fugiat? Ullam iusto, rerum quasi officiis odit perspiciatis mollitia. ",
+        university: "International Black Sea Univeristy",
+        education: "Computer Science",
+        proSphere: "Full Stack Web Developer",
+        skills: "HTML, CSS, JavaScript, Angular, SASS, NodeJS, MongoDB",
     },
 
     {
         id: 2,
-        saxeli: "Mariami",
+        fname: "Mariami",
         lname: "Baramidze",
         imgUrl: "../../assets/mariami.svg",
         description: "Mariami is Software Developer from Georgia",
         info: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo beatae dignissimos provident id delectus veritatis cum odio, magni quis quos fugiat? Ullam iusto, rerum quasi officiis odit perspiciatis mollitia. ",
+        university: "International Black Sea Univeristy",
+        education: "Computer Science",
+        proSphere: "Software Develper",
+        skills: "C++, Java, Python,",
     },
 
     {
         id: 3,
-        saxeli: "Ana",
+        fname: "Ana",
         lname: "Gachechiladze",
         imgUrl: "../../assets/ana.svg",
         description: "Ana is Linux Administrator from Georgia",
         info: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo beatae dignissimos provident id delectus veritatis cum odio, magni quis quos fugiat? Ullam iusto, rerum quasi officiis odit perspiciatis mollitia. ",
+        university: "International Black Sea Univeristy",
+        education: "Computer Science",
+        proSphere: "Linux Administrator",
+        skills: "SQL, NTPC, VI-EDITOR, SWITCHES",
     }
 ]
 

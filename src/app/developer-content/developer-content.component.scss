@@ -9,48 +9,91 @@
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
-
+    gap: 50px;
+    
         .form {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
-            gap: 20px;
             background-color: $primary;
             border-radius: 20px;
             padding: 20px;
-
+            color: white;
+            width: 400px;
+            height: 550px;
             .icon {
                 width: 200px;
                 background-color: white;
                 border-radius: 50%;
+                cursor: pointer;
+                border: 1px solid white;
+                margin-top: 30px;
+
+                &:hover {
+                    border: 3px solid white;
+                }
             }
+
+            .name {
+                font-family: 'Poppins', sans-serif;
+                font-size: 20px;
+                margin-top: 20px;
+                cursor: pointer;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+                &:hover { 
+                    text-decoration: underline;
+                }
+            }
+
 
             p {
-                max-width: 500px;
+                font-family: 'Poppins', sans-serif;
+                max-width: 400px;
+                margin-top: 20px;
             }
+
+            .hire {
+                border: none;
+                font-size: 16px;
+                color: white;
+                padding: 8px 16px;
+                background-color: $primary;
+                border-radius: 10px;
+                margin: 14px;
+                border: 2px solid white;
+                cursor: pointer;
+                font-weight: bold;
+                transition: all 0.3s ease;
+                margin-top: 30px;
+                margin-bottom: 0px;
+            
+                &:hover {
+                    background-color: white;
+                    border: 2px solid $primary;
+                    color: $primary;
+                }
+            
+            }
+
         }
 
-        
-.hire {
-    border: none;
-    font-size: 16px;
-    color: white;
-    padding: 8px 16px;
-    background-color: $primary;
-    border-radius: 10px;
-    margin: 14px;
-    border: 2px solid white;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all 0.3s ease;
+        .skills {
+            width: 400px;
+            height: 550px;
+            background-color: $primary;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
 
-    &:hover {
-        background-color: white;
-        border: 2px solid $primary;
-        color: $primary;
-    }
-
-}
 
 }

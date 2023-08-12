@@ -4,13 +4,13 @@
 <app-content></app-content>
 <app-developers>
     <ng-container>
-        <app-card [name]="giorgi.saxeli" [imgUrl]="giorgi.imgUrl" [description]="giorgi.description">
+        <app-card [name]="giorgi.fname" [imgUrl]="giorgi.imgUrl" [description]="giorgi.description">
             <a routerLink="devpage"><button class="button" (click)="onButton1Click()">Learn More</button></a>
         </app-card>
-        <app-card [name]="mariami.saxeli" [imgUrl]="mariami.imgUrl" [description]="mariami.description">
+        <app-card [name]="mariami.fname" [imgUrl]="mariami.imgUrl" [description]="mariami.description">
             <a routerLink="devpage"><button class="button" (click)="onButton2Click()">Learn More</button></a>
         </app-card>
-        <app-card [name]="ana.saxeli" [imgUrl]="ana.imgUrl" [description]="ana.description">
+        <app-card [name]="ana.fname" [imgUrl]="ana.imgUrl" [description]="ana.description">
             <a routerLink="devpage"><button class="button" (click)="onButton3Click()">Learn More</button></a>
         </app-card>
     </ng-container>
