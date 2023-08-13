@@ -5,12 +5,17 @@
     height: auto;
     font-family: 'Poppins', sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    gap: 50px;
-    
+    padding-top: 60px;
+    padding-bottom: 60px;   
+
+    .cards {
+        display: flex;
+        gap: 50px;
+    }
+
         .form {
             display: flex;
             flex-direction: column;
@@ -120,6 +125,28 @@
         }
 
 
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: $primary;
+    border-radius: 10px;
+    margin: 14px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    &:hover {
+        background-color: white;
+        border: 2px solid $primary;
+        color: $primary;
+    }
 }
 
 }
