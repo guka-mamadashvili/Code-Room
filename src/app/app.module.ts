@@ -19,6 +19,7 @@ import { SigninComponent } from './signin/signin.component';
 import { SigninFormComponent } from './signin-form/signin-form.component';
 import { DeveloperPageComponent } from './developer-page/developer-page.component';
 import { DeveloperContentComponent } from './developer-content/developer-content.component';
+import { AboutContentComponent } from './about-content/about-content.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { DeveloperContentComponent } from './developer-content/developer-content
     SigninFormComponent,
     DeveloperPageComponent,
     DeveloperContentComponent,
+    AboutContentComponent,
   ],
   imports: [
     BrowserModule,

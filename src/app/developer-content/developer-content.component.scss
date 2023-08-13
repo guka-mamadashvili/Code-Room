@@ -14,7 +14,6 @@
     .cards {
         display: flex;
         gap: 50px;
-    }
 
         .form {
             display: flex;
@@ -117,7 +116,7 @@
                gap: 20px;
 
              img { width: 50px;
-              backgorund-color: white;
+              background-color: white;
               border: 1px solid white;
               border-radius: 50%;
             }
@@ -126,6 +125,43 @@
 
 
 }
+
+    .socials {
+        width: 400px;
+        height: 550px;
+        background-color: $primary;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+        .social-links {
+            gap: 30px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            h2 {
+
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    }
+
+        
 
 button {
     border: none;

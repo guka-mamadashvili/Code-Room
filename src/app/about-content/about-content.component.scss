@@ -1,0 +1,114 @@
+@import '../../styles.scss';
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    .title {
+
+        h1 {
+            font-family: "Poppins", "sans-serif";
+            font-size: 25px;
+            color: $primary;
+
+            span {
+                color: #333;
+            }
+        }
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .line {
+            width: 600px;
+            height: 2px;
+            background-color: $primary;
+        }
+
+        img {
+            width: 300px;
+        }
+    }
+
+    .info {
+        width: 100%;
+        background-color: $primary;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        gap: 40px;
+
+        h2 {
+            color: white;
+            font-family: 'Bebas Neue', sans-serif;
+            text-shadow: $text-shadow;
+        }
+
+        p {
+            color: white;
+            font-family: $poppins;
+            text-shadow: $text-shadow;
+            margin-top: 10px;
+            max-width: 700px;
+        }
+
+
+    }
+
+    .tip-cards { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        padding-top: 70px;
+        padding-bottom: 50px;
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            .card {
+                width: 200px;
+                height: 100px;
+                border-radius: 10px;
+                background-color: $primary;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: white;
+                font-family: $poppins;
+                text-shadow: $text-shadow;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .inline {
+                width: 70px;
+                height: 2px;
+                background-color: $primary;
+            }
+        }
+
+        .line {
+            width: 700px;
+            height: 2px;
+            background-color: $primary;
+        }
+    }
+
+}
