@@ -20,6 +20,9 @@ import { SigninFormComponent } from './signin-form/signin-form.component';
 import { DeveloperPageComponent } from './developer-page/developer-page.component';
 import { DeveloperContentComponent } from './developer-content/developer-content.component';
 import { AboutContentComponent } from './about-content/about-content.component';
+import { LogoComponent } from './logo/logo.component';
+import { ContactComponent } from './contact/contact.component';
+import { ContactContentComponent } from './contact-content/contact-content.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +43,9 @@ import { AboutContentComponent } from './about-content/about-content.component';
     DeveloperPageComponent,
     DeveloperContentComponent,
     AboutContentComponent,
+    LogoComponent,
+    ContactComponent,
+    ContactContentComponent,
   ],
   imports: [
     BrowserModule,

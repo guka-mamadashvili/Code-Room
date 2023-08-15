@@ -1,55 +1,71 @@
 @import '../../styles.scss';
 
-.about {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 
     .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
 
         h1 {
-            font-family: "Poppins", "sans-serif";
             font-size: 25px;
+            font-family: $poppins;
             color: $primary;
 
             span {
                 color: #333;
             }
         }
-
     }
-
 
     .info {
         width: 100%;
         background-color: $primary;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        padding-top: 30px;
+        text-align: center;  
+        padding-top: 20px;
         padding-bottom: 30px;
-        gap: 40px;
+        gap: 200px;
+        font-family: $poppins;
+        color: white;
+        text-shadow: $text-shadow;
 
-        h2 {
-            color: white;
-            font-family: 'Bebas Neue', sans-serif;
-            text-shadow: $text-shadow;
+        h1 {
+            font-size: 22px;
         }
 
-        p {
-            color: white;
-            font-family: $poppins;
-            text-shadow: $text-shadow;
-            margin-top: 10px;
-            max-width: 700px;
+        P {
+        font-size: 15px;
         }
 
+        .con-div {
 
+          img {
+            width: 50px;
+            -webkit-filter: invert(100%); /* Safari/Chrome */
+            filter: invert(100%);
+          }
+
+            p {
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+
+        }
+
+        
     }
 
     .tip-cards { 
@@ -83,7 +99,7 @@
             }
 
             .inline {
-                width: 70px;
+                width: 160px;
                 height: 2px;
                 background-color: $primary;
             }
@@ -98,41 +114,5 @@
 
 }
 
-@media only screen and (max-width: 480px) {
-  .logo {
-
-    .line {
-      display: none
-    }
-  }
-
-  .info {
-        
-    h2 {
-      font-size: 18px;
-    }
-    
-    p {
-      font-size: 14px;
-      max-width: 200px;
-    }
-  }
-
-  .tip-cards {
-    display: flex;
-    flex-direction: column;
-
-    .cards {
-      display: flex;
-      flex-direction: column;
-
-      .inline {
-        width: 2px;
-        height: 30px;
-        background-color: $primary;
-    }
-    }
-  }
-}
 
 
