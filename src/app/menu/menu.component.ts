@@ -17,50 +17,50 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 export class MenuComponent {
 
   // Web Image
-  public webImageUrl: string = "../../assets/web-dark.svg";
+  public webImageUrl: string = "assets/web-dark.svg";
 
   webMouseEnter() {
-    this.webImageUrl = "../../assets/web-primary.svg"
+    this.webImageUrl = "assets/web-primary.svg"
   }
 
   webMouseLeave() {
-    this.webImageUrl = "../../assets/web-dark.svg"
+    this.webImageUrl = "assets/web-dark.svg"
   }
 
   // Software Image
 
-  public softImageUrl: string = "../../assets/soft-black.svg";
+  public softImageUrl: string = "assets/soft-black.svg";
 
   softMouseEnter() {
-    this.softImageUrl = "../../assets/soft-primary.svg"
+    this.softImageUrl = "assets/soft-primary.svg"
   }
 
   softMouseLeave() {
-    this.softImageUrl = "../../assets/soft-black.svg"
+    this.softImageUrl = "assets/soft-black.svg"
   }
 
   // Linux Image
 
-  public linuxImageUrl: string = "../../assets/linux-black.svg";
+  public linuxImageUrl: string = "assets/linux-black.svg";
 
   linuxMouseEnter() {
-    this.linuxImageUrl = "../../assets/linux-primary.svg"
+    this.linuxImageUrl = "assets/linux-primary.svg"
   }
 
   linuxMouseLeave() {
-    this.linuxImageUrl = "../../assets/linux-black.svg"
+    this.linuxImageUrl = "assets/linux-black.svg"
   }
 
   // Mobile Image
 
-  public mobImageUrl: string = "../../assets/mob-black.svg";
+  public mobImageUrl: string = "assets/mob-black.svg";
 
   mobMouseEnter() {
-    this.mobImageUrl = "../../assets/mob-primary.svg"
+    this.mobImageUrl = "assets/mob-primary.svg"
   }
 
   mobMouseLeave() {
-    this.mobImageUrl = "../../assets/mob-black.svg"
+    this.mobImageUrl = "assets/mob-black.svg"
   }
 
 
