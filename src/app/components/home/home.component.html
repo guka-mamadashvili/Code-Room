@@ -1,0 +1,18 @@
+<app-nav></app-nav>
+<app-menu></app-menu>
+<app-line></app-line>
+<app-content></app-content>
+<app-developers>
+    <ng-container>
+        <app-card [name]="giorgi.fname" [imgUrl]="giorgi.imgUrl" [description]="giorgi.description">
+            <a href="devpage"><button class="button" (click)="onButton1Click()">Learn More</button></a>
+        </app-card>
+        <app-card [name]="mariami.fname" [imgUrl]="mariami.imgUrl" [description]="mariami.description">
+            <a href="devpage"><button class="button" (click)="onButton2Click()">Learn More</button></a>
+        </app-card>
+        <app-card [name]="ana.fname" [imgUrl]="ana.imgUrl" [description]="ana.description">
+            <a href="devpage"><button class="button" (click)="onButton3Click()">Learn More</button></a>
+        </app-card>
+    </ng-container>
+</app-developers>
+<app-footer></app-footer>

@@ -1,0 +1,73 @@
+@import '../../../styles.scss';
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+    border-bottom: 1px solid gray;
+    padding-bottom: 1%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.links img {
+    cursor: pointer;
+}
+
+nav img {
+    width: 40px;
+}
+
+.logo {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line */
+    padding-right: 80%;
+    cursor: pointer;
+    span{
+        color: $primary;
+    }
+
+    &:hover {
+        color: $primary;
+        span {
+            color: black;
+        }
+    }
+}
+
+.user {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.user li:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        padding-left: 10%;
+    }
+
+    .links {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    
+}

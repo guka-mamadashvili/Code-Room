@@ -1,0 +1,179 @@
+@import '../../../styles.scss';
+
+
+
+.footer {
+     display: flex;
+     justify-content: space-around;
+     padding-top: 1%;
+     border-top: 1px solid gray;
+     background-color: $primary;
+     color: white;
+}
+
+.newsletter {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: 10px;
+}
+
+.newsletter h4 {
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: white;
+    padding: 8px 16px;
+    background-color: $primary;
+    border-radius: 10px;
+    margin: 14px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: white;
+        border: 2px solid $primary;
+        color: $primary;
+    }
+}
+
+
+.email {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 3%;
+}
+
+.date {
+    width: 300px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 17px;
+    padding-left: 3%;
+}
+
+.useful-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+
+.useful-links p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.useful-links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: center;
+}
+
+.useful-links ul a {
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 13px;
+}
+
+.useful-links ul a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+    padding-top: 1%;
+    max-width: 150px;
+}
+
+.contact h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact p {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.address-link {
+    text-decoration: none;
+    color: white;
+}
+
+.address {
+    color: white;
+}
+
+.address-link:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.icons img {
+    width: 35px;
+}
+
+@media only screen and (max-width: 480px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .useful-links {
+        padding-top: 2%;
+        border-bottom: 1px solid white;
+        padding-bottom: 2%;
+    }
+
+    .newsletter {
+        border-bottom: 1px solid white;
+        padding-bottom: 2%;
+    }
+
+    .contact {
+        padding-bottom: 4%;
+    }
+
+    .date {
+        display: none;
+    }
+
+    .newsletter h4 {
+        content: "NewsLetter";
+    }
+
+}

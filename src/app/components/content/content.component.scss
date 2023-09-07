@@ -1,0 +1,45 @@
+@import '../../../styles.scss';
+
+.content {
+    padding-top: 4%;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    border-bottom: 1px solid gray;
+}
+
+.dev h2 {
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 30%;
+    cursor: pointer;
+}
+
+.dev h2 span {
+    font-family: 'Bebas Neue', sans-serif;
+    color: $primary;
+}
+
+.avatar img {
+    width: 400px;
+}
+
+@media only screen and (max-width: 480px) {
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .avatar img {
+        width: 300px;
+    }
+
+    .dev h2 {
+        font-size: 50px;
+    }
+
+}

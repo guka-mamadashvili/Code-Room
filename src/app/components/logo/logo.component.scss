@@ -1,0 +1,34 @@
+@import '../../../styles.scss';
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .line {
+        width: 600px;
+        height: 2px;
+        background-color: $primary;
+    }
+
+    img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        .line {
+            display: none;
+        }
+    }
+} 
+
+@media only screen and (max-width: 1000px) {
+    .logo {
+        .line {
+            display: none;
+        }
+    }
+} 
