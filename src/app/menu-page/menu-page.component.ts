@@ -8,6 +8,8 @@ import { Courses } from 'src/Courses/courses';
 })
 export class MenuPageComponent {
 
+  public courses: any = Courses
+
   public htmlCourse: any = Courses[0];
   public cssCourse: any = Courses[1];
   public jsCourse: any = Courses[2];
